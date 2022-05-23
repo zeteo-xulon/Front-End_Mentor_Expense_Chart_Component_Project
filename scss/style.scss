@@ -42,9 +42,7 @@ body{
   border-radius: 15px;
   background-color: $primary-color-1;
   height: 100px;
-  min-width: 340px;
-  width: 50%;
-  max-width: 1280px;
+  width: clamp(340px,50%,540px);
   color: $neutral-color-4;
 
   &__balance{
@@ -55,12 +53,11 @@ body{
 
     &__title{
       font-weight: 300;
-      font-size: .7rem;
     }
 
     &__amount{
       font-family: "DMSans-Bold",Arial, Helvetica, sans-serif;
-      font-size: 1.4rem;
+      font-size: 1.7rem;
     }
   }
 }
@@ -73,9 +70,7 @@ body{
   flex-flow: column nowrap;
   justify-content: space-between;
   height: 50%;
-  min-width: 340px;
-  width: 50%;
-  max-width: 1280px;
+  width: clamp(340px,50%,540px);
   background-color: $neutral-color-4;
   border-radius: 15px;
   padding: 22px;
@@ -83,12 +78,10 @@ body{
 
   &__title{
     font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
-    font-size: 1.4rem;
+    font-size: clamp(1.3rem,5vw,1.7rem);
   }
 
-  &__chart{
-
-  }
+  &__chart{}
 
   &__separation{
     width: 90%;
@@ -103,3 +96,12 @@ body{
     justify-content: space-between;
   }
 }
+.total__month__title{
+  font-weight: 300;
+}
+.total__month__price{
+  font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+.last-month__percentage{}
+.last-month__text{}
