@@ -95,7 +95,6 @@ body {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
-  height: 50%;
   width: clamp(340px, 50%, 540px);
   background-color: hsl(33deg, 100%, 98%);
   border-radius: 15px;
@@ -106,16 +105,62 @@ body {
   font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
   font-size: clamp(1.3rem, 5vw, 1.7rem);
 }
+.main__chart {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+  gap: 10px;
+}
 .main__separation {
   width: 90%;
   height: 3px;
   background-color: hsl(27deg, 66%, 92%);
+  margin: 30px auto;
 }
 .main__total {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.chart__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: clamp(33px, 100%, 50px);
+  gap: 7px;
+}
+.chart__amount {
+  display: none;
+  background-color: hsl(25deg, 47%, 15%);
+  border-radius: 5px;
+  color: hsl(33deg, 100%, 98%);
+  padding: 7px 10px;
+  transition: 0.2s;
+}
+.chart__bar {
+  max-height: 150px;
+  height: 80px;
+  background-color: hsl(10deg, 79%, 65%);
+  width: 100%;
+  border-radius: 5px;
+}
+.chart__day {
+  padding: 8px 100% 0px;
+}
+
+.chart__bar:hover {
+  background-color: #f29e8d;
+}
+
+.chart__container:hover .chart__amount {
+  display: block;
 }
 
 .total__month__title {
@@ -125,6 +170,13 @@ body {
 .total__month__price {
   font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
   font-size: 2rem;
+}
+
+.chart__bar--special {
+  background-color: hsl(186deg, 34%, 60%);
+}
+.chart__bar--special:hover {
+  background-color: #98c7cd;
 }
 
 /*# sourceMappingURL=style.css.map */
