@@ -107,7 +107,7 @@ body{
 
 .chart{
   &__container{
-    display:flex;
+    display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
     align-items: center;
@@ -124,9 +124,9 @@ body{
     transition: .2s;
   }
   &__bar{
+    background-color: $primary-color-1;
     max-height:150px;
     height: 80px;
-    background-color: $primary-color-1;
     width:100%;
     border-radius: 5px;
   }
@@ -153,6 +153,11 @@ body{
 .last-month__text{}
 
 .chart__bar--special{
+  background-color: $primary-color-2;
+  max-height:150px;
+  height: 150px;
+  width:100%;
+  border-radius: 5px;
   background-color: $primary-color-2;
   &:hover{
     background-color: lighten($primary-color-2, $amount: 10);

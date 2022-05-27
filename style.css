@@ -145,9 +145,9 @@ body {
   transition: 0.2s;
 }
 .chart__bar {
+  background-color: hsl(10deg, 79%, 65%);
   max-height: 150px;
   height: 80px;
-  background-color: hsl(10deg, 79%, 65%);
   width: 100%;
   border-radius: 5px;
 }
@@ -173,6 +173,11 @@ body {
 }
 
 .chart__bar--special {
+  background-color: hsl(186deg, 34%, 60%);
+  max-height: 150px;
+  height: 150px;
+  width: 100%;
+  border-radius: 5px;
   background-color: hsl(186deg, 34%, 60%);
 }
 .chart__bar--special:hover {
