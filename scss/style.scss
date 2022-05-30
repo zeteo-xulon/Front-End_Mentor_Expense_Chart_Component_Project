@@ -1,6 +1,6 @@
-@import "./fonts";
 @import "./variables";
 @import "./mixins";
+@import "./fonts";
 
 /*=============================
         GENERAL STYLE
@@ -11,7 +11,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-size: $primary-font-size;
-  font-family: "DMSans-Regular", Arial, Helvetica, sans-serif;
+  font-family: $primary-font-regular, Arial, Helvetica, sans-serif;
 }
 html, body{
   height: 100%;
@@ -56,7 +56,7 @@ body{
     }
 
     &__amount{
-      font-family: "DMSans-Bold",Arial, Helvetica, sans-serif;
+      font-family: $primary-font-bold,Arial, Helvetica, sans-serif;
       font-size: 1.7rem;
     }
   }
@@ -76,7 +76,7 @@ body{
   color: $neutral-color-1;
 
   &__title{
-    font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+    font-family: $primary-font-bold, Arial, Helvetica, sans-serif;
     font-size: clamp(1.3rem,5vw,1.7rem);
   }
 
@@ -145,7 +145,7 @@ body{
   font-weight: 300;
 }
 .total__month__price{
-  font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+  font-family: $primary-font-bold, Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
 

@@ -2,27 +2,27 @@
             FONTS
 =============================*/
 @font-face {
-  font-family: "DMSans-Bold";
+  font-family: DMSans-Bold;
   src: url("../fonts/DM_Sans/DMSans-Bold.ttf");
 }
 @font-face {
-  font-family: "DMSans-BoldItalic";
+  font-family: DMSans-BoldItalic;
   src: url("../fonts/DM_Sans/DMSans-BoldItalic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Italic";
+  font-family: DMSans-Italic;
   src: url("../fonts/DM_Sans/DMSans-Italic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Medium";
+  font-family: DMSans-Regular;
   src: url("../fonts/DM_Sans//DMSans-Medium.ttf");
 }
 @font-face {
-  font-family: "DMSans-MediumItalic";
+  font-family: DMSans-MediumItalic;
   src: url("../fonts/DM_Sans/DMSans-MediumItalic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Regular";
+  font-family: DMSans-Regular;
   src: url("../fonts/DM_Sans/DMSans-Regular.ttf");
 }
 /*=============================
@@ -33,7 +33,7 @@
   padding: 0px;
   box-sizing: border-box;
   font-size: 18px;
-  font-family: "DMSans-Regular", Arial, Helvetica, sans-serif;
+  font-family: DMSans-Regular, Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -84,7 +84,7 @@ body {
   font-weight: 300;
 }
 .header__balance__amount {
-  font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+  font-family: DMSans-Bold, Arial, Helvetica, sans-serif;
   font-size: 1.7rem;
 }
 
@@ -102,7 +102,7 @@ body {
   color: hsl(25deg, 47%, 15%);
 }
 .main__title {
-  font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+  font-family: DMSans-Bold, Arial, Helvetica, sans-serif;
   font-size: clamp(1.3rem, 5vw, 1.7rem);
 }
 .main__chart {
@@ -168,7 +168,7 @@ body {
 }
 
 .total__month__price {
-  font-family: "DMSans-Bold", Arial, Helvetica, sans-serif;
+  font-family: DMSans-Bold, Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
 

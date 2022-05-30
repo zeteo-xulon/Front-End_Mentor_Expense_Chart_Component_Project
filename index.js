@@ -13,13 +13,11 @@ async function build(){
   const weekSpendings = await FetchServer();
   const maxAmount = findMaxAmount(weekSpendings);
   for(daySpending of weekSpendings){
-    console.log(daySpending)
     if(daySpending.amount === maxAmount) {
       let thatChart = createThatChart(daySpending, "div","class", "chart__container", "p", "class", "chart__amount", "div", "class", "chart__bar--special", "p", "class", "chart__day")
       chartContainer.appendChild(thatChart)
     } else {
       let barHeight = Math.floor((daySpending.amount / maxAmount)*150)
-      console.log(barHeight)
       let thisChart = createThatChart(daySpending, "div","class", "chart__container", "p", "class", "chart__amount", "div", "class", "chart__bar", "p", "class", "chart__day", barHeight);
       chartContainer.appendChild(thisChart)
     }

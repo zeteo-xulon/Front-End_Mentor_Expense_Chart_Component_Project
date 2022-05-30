@@ -3,26 +3,26 @@
 =============================*/
 
 @font-face {
-  font-family: "DMSans-Bold";
+  font-family: $primary-font-bold;
   src: url("../fonts/DM_Sans/DMSans-Bold.ttf");
 }
 @font-face {
-  font-family: "DMSans-BoldItalic";
+  font-family: $primary-font-bold-italic;
   src: url("../fonts/DM_Sans/DMSans-BoldItalic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Italic";
+  font-family: $primary-font-italic;
   src: url("../fonts/DM_Sans/DMSans-Italic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Medium";
+  font-family: $primary-font-regular;
   src: url("../fonts/DM_Sans//DMSans-Medium.ttf");
 }
 @font-face {
-  font-family: "DMSans-MediumItalic";
+  font-family: $primary-font-medium-italic;
   src: url("../fonts/DM_Sans/DMSans-MediumItalic.ttf");
 }
 @font-face {
-  font-family: "DMSans-Regular";
+  font-family: $primary-font-regular;
   src: url("../fonts/DM_Sans/DMSans-Regular.ttf");
 }
