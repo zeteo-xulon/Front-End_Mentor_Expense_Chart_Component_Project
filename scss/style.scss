@@ -13,14 +13,6 @@
   font-size: $primary-font-size;
   font-family: $primary-font-regular, Arial, Helvetica, sans-serif;
 }
-html, body{
-  height: 100%;
-}
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
-  font-size: 13px;
-}
 
 body{
   @include center;
@@ -52,9 +44,7 @@ body{
     justify-content: space-between;
     height: 100%;
 
-    &__title{
-      font-weight: 300;
-    }
+    &__title{ font-weight: 300; }
 
     &__amount{
       font-family: $primary-font-bold,Arial, Helvetica, sans-serif;
@@ -133,27 +123,17 @@ body{
     width:100%;
     border-radius: 5px;
   }
-  &__day{
-    padding: 8px 100% 0px;
-  }
+  &__day{ padding: 8px 100% 0px; }
 }
 .chart__bar:hover{
   background-color: lighten($primary-color-1, $amount: 10);
 }
-.chart__container:hover .chart__amount{
-  display: block;
-}
-
-.total__month__title{
-  font-weight: 300;
-}
+.chart__container:hover .chart__amount{ display: block; }
+.total__month__title{ font-weight: 300; }
 .total__month__price{
   font-family: $primary-font-bold, Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
-
-.last-month__percentage{}
-.last-month__text{}
 
 .chart__bar--special{
   background-color: $primary-color-2;
@@ -165,4 +145,13 @@ body{
   &:hover{
     background-color: lighten($primary-color-2, $amount: 10);
   }
+}
+
+/*=============================
+            FOOTER
+=============================*/
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+  font-size: 13px;
 }
