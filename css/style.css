@@ -36,20 +36,6 @@
   font-family: DMSans-Regular, Arial, Helvetica, sans-serif;
 }
 
-html, body {
-  height: 100%;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-  font-size: 13px;
-}
-
 body {
   display: flex;
   justify-content: center;
@@ -185,6 +171,19 @@ body {
 }
 .chart__bar--special:hover {
   background-color: #98c7cd;
+}
+
+/*=============================
+            FOOTER
+=============================*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+  font-size: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */
