@@ -57,6 +57,7 @@ body {
   flex-flow: column nowrap;
   background-color: hsl(27deg, 66%, 92%);
   gap: 1rem;
+  padding: 1rem;
 }
 
 /*=============================
@@ -98,7 +99,7 @@ body {
   width: clamp(340px, 50%, 540px);
   background-color: hsl(33deg, 100%, 98%);
   border-radius: 15px;
-  padding: 22px;
+  padding: 12px;
   color: hsl(25deg, 47%, 15%);
 }
 .main__title {
@@ -112,7 +113,6 @@ body {
   align-items: center;
   height: 250px;
   width: 100%;
-  gap: 10px;
 }
 .main__separation {
   width: 90%;
@@ -133,15 +133,18 @@ body {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  min-width: 33px;
   width: clamp(33px, 100%, 50px);
   gap: 7px;
+  margin: 0px 6px;
 }
 .chart__amount {
   display: none;
   background-color: hsl(25deg, 47%, 15%);
   border-radius: 5px;
   color: hsl(33deg, 100%, 98%);
-  padding: 7px 10px;
+  padding: 8px 12px;
+  margin: 0px -18px;
   transition: 0.2s;
 }
 .chart__bar {
